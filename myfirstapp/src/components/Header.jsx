@@ -1,11 +1,12 @@
-import Headerleft from "./Headerleft"
+import Navbar from "./Navbar";
+import Herosection from "./Herosection";
 
 const Header = () => {
     return (
-        <div className="header">
-            <Headerleft/>
-            {/* <Headright/> */}
-        </div>
+        <nav className="header">
+            <Navbar/>
+            <Herosection/>
+        </nav>
     )
 }
 

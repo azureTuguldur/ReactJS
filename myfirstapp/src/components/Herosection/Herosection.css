@@ -1,0 +1,8 @@
+
+.Herosection{
+    width: 100%;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    margin-top: 100px;
+  }

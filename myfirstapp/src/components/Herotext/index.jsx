@@ -1,0 +1,28 @@
+import "./Herotext.css"
+
+const HeroBtns = [
+    {name:"TWITTER", icon:"/img/twitter.png", classNer:"twitter"},
+    {name:"LINKEDIN"},
+    {name:"MEDIUM"},
+]
+
+const Herobtn = (props)=>{
+    return <button className="linkbtn" >{props.icon}{props.name}</button>
+}
+
+const Herotext = () =>{
+    return(
+        <div className="Heromain">
+            <h1 className="Heroh1">Blog Posts</h1>
+            <h2 className="Heroh2">I think so, this is it.</h2>
+            <p className="Herotext">Design begins after I begin to think about how to present an experience most successfully, whether a button I put in can solve a promlem. The only point in design is not ui design, if the user does not have a good experience at the end of the product, the design will be considered unsuccesful in my opinion.</p>
+            <div className="btns">
+                {HeroBtns.map((item)=>(
+                    <Herobtn icon={item.icon} name={item.name} classNer={item.class}/>
+                ))}
+            </div>
+        </div>
+    )
+}
+
+export default Herotext;

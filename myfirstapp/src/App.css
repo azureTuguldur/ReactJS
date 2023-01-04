@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-left: 360px;
+  margin-right: 360px;
 }
 
 .App-logo {
@@ -36,14 +38,6 @@
     transform: rotate(360deg);
   }
 }
-.back{
-  display: flex;
-}
-.card{
-  width: 200px;
-  height: 300px;
-  border: solid navy;
-}
-img { 
-  height: 180px;
+a{
+  text-decoration: none;
 }

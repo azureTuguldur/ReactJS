@@ -1,0 +1,10 @@
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.mainlogo{
+    height: 38px;
+}
+.sidelogo{
+    height: 24px;
+}

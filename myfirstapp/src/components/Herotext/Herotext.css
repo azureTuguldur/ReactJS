@@ -1,0 +1,39 @@
+.Heromain{
+  width: 50%;
+  text-align: start;
+}
+.Heroh1{
+  font-size: 52px;
+  color: #D05270;
+  margin-bottom: 12px;
+}
+.Heroh2{
+  font-size: 52px;
+  color: #424242;
+  margin-top: 12px;
+  font-weight: 500;
+}
+.Herotext{
+  font-size: 18px;
+  color: #424242;
+}
+.btns{
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+} 
+.linkbtn{
+  width: 200px;
+  height: 60px;
+  color: white;
+  border: none;
+}
+.twitter{
+  background-color: #47ACDF;
+}
+.linkedin{
+  background-color: #1275B1;
+}
+.medium{
+  background-color: #000000;
+}

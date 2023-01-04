@@ -1,0 +1,7 @@
+.Navbar{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}

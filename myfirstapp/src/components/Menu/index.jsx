@@ -17,7 +17,7 @@ const Menu = ()=>{
     return (
         <div className="Menu">
             {MenuItems.map((item)=>(
-            <MenuShow key={item.name} name={item.name}/>
+                <MenuShow key={item.name} name={item.name}/>
             ))}
         </div>
     )

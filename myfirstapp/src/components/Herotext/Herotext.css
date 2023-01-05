@@ -1,39 +1,42 @@
-.Heromain{
+.Heromain {
   width: 50%;
   text-align: start;
 }
-.Heroh1{
+.Heroh1 {
   font-size: 52px;
-  color: #D05270;
+  color: #d05270;
   margin-bottom: 12px;
 }
-.Heroh2{
+.Heroh2 {
   font-size: 52px;
   color: #424242;
   margin-top: 12px;
   font-weight: 500;
 }
-.Herotext{
+.Herotext {
   font-size: 18px;
   color: #424242;
 }
-.btns{
+.btns {
   margin-top: 36px;
   display: flex;
   justify-content: space-between;
-} 
-.linkbtn{
+}
+.linkbtn {
   width: 200px;
   height: 60px;
   color: white;
   border: none;
 }
-.twitter{
-  background-color: #47ACDF;
+.linkbtn img {
+  margin-right: 15px;
 }
-.linkedin{
-  background-color: #1275B1;
+.twitter {
+  background-color: #47acdf;
 }
-.medium{
+.linkedin {
+  background-color: #1275b1;
+}
+.medium {
   background-color: #000000;
 }

@@ -1,0 +1,32 @@
+.Postsect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Pp img {
+  width: 700px;
+}
+.Pp {
+  width: 45%;
+  text-align: start;
+  margin-bottom: 77px;
+}
+.Pp h6 {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #424242;
+}
+.Pp h4 {
+  margin-top: 14px;
+  font-size: 24px;
+  color: #d05270;
+}
+.Pp p {
+  color: #424242;
+  margin-top: 12px;
+}
+.Pp a {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #d05270;
+}

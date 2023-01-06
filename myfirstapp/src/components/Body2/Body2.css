@@ -5,9 +5,11 @@
 .Body2 img {
   width: 1550px;
 }
+.Bodyblog {
+  margin-top: 150px;
+}
 h1 {
   color: #3a0ca3;
-  margin-top: 150px;
 }
 .h1 {
   font-size: 42px;
@@ -22,4 +24,7 @@ h1 {
 .Bodyblog p {
   margin-top: 76px;
   font-size: 18px;
+}
+a {
+  text-decoration: none;
 }

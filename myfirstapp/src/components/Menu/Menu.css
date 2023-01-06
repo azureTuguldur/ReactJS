@@ -1,13 +1,13 @@
-.Menu{
+.Menu {
   width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.Menu a{
-  color:#424242;
+.Menu a {
+  color: #424242;
+  text-decoration: none;
 }
-.Menu a:hover{
-  color:#5A47AB;
+.Menu a:hover {
+  color: #5a47ab;
 }
-  

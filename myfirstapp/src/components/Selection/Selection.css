@@ -16,5 +16,10 @@
 .Selection button:hover {
   font-size: 24px;
   color: #d05270;
-  border-bottom: solid #d05270 1px;
+  border-bottom: dotted #d05270 2px;
+}
+.Selection button:focus {
+  font-size: 24px;
+  color: #d05270;
+  border: solid #d05270 2px;
 }

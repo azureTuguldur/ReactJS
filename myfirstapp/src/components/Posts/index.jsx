@@ -1,49 +1,6 @@
 import "./Posts.css";
+import post from "../PostItem";
 
-const Post = [
-  {
-    name: "This way is wrong about UI Design.",
-    text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web. ",
-    btn: "READ MORE",
-    time: "NOV 23 2020",
-    img: "/img/postimg.png",
-  },
-  {
-    name: "This way is wrong about UI Design.",
-    text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web. ",
-    btn: "READ MORE",
-    time: "NOV 23 2020",
-    img: "/img/postimg.png",
-  },
-  {
-    name: "This way is wrong about UI Design.",
-    text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web. ",
-    btn: "READ MORE",
-    time: "NOV 23 2020",
-    img: "/img/postimg.png",
-  },
-  {
-    name: "This way is wrong about UI Design.",
-    text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web. ",
-    btn: "READ MORE",
-    time: "NOV 23 2020",
-    img: "/img/postimg.png",
-  },
-  {
-    name: "This way is wrong about UI Design.",
-    text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web. ",
-    btn: "READ MORE",
-    time: "NOV 23 2020",
-    img: "/img/postimg.png",
-  },
-  {
-    name: "This way is wrong about UI Design.",
-    text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web. ",
-    btn: "READ MORE",
-    time: "NOV 23 2020",
-    img: "/img/postimg.png",
-  },
-];
 const Postc = (props) => {
   return (
     <div className="Pp">
@@ -59,7 +16,7 @@ const Postc = (props) => {
 const Posts = () => {
   return (
     <div className="Postsect">
-      {Post.map((item) => (
+      {post.map((item) => (
         <Postc
           key={item.name}
           img={item.img}

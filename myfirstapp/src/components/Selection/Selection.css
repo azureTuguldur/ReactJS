@@ -23,3 +23,17 @@
   color: #d05270;
   border: solid #d05270 2px;
 }
+.Second{
+  display: flex;
+  flex-direction: column;
+}
+.Postsect{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Pp{
+  width: 45%;
+  margin-top: 30px;
+  text-align: start;
+}

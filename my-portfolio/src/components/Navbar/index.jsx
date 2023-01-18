@@ -1,26 +1,19 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-
-function Navbarport() {
+import "./Navbar.css";
+function Navbar() {
   return (
-    <Navbar bg="black" variant="dark" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#project">Project</Nav.Link>
-            <Nav.Link href="#skill">Skill</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <nav className="nav">
+      <div className="nav-1">
+        <h1>My-Portfolio</h1>
+      </div>
+      <div className="nav-2">
+        <a className="Home">Home</a>
+        <a className="Skill">Skill</a>
+        <a className="Project">Project</a>
+        <a className="About">About</a>
+        <a className="Contact">Contact</a>
+      </div>
+    </nav>
   );
 }
 
-export default Navbarport;
+export default Navbar;

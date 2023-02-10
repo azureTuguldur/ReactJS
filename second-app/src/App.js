@@ -42,14 +42,14 @@ function App() {
   // };
 
   return (
-    <UserContext.Provider value={{ userName, setUserName }}>
+    <UserProvider value={{ userName, setUserName }}>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/books" element={<BookList books={books} />} />
         <Route path="/books/:id" element={<BookDetail books={books} />} />
         <Route path="/timer" element={<Timer />} />
       </Routes>
-    </UserContext.Provider>
+    </UserProvider>
   );
 }
 

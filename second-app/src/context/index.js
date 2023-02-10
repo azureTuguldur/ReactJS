@@ -7,11 +7,13 @@ const UserProvider = ({children})=>{
 
     const login = ()=>{}
 
-    const login = ()=>{}
+    const logout = ()=>{}
 
-    const login = ()=>{}
+    const signup = ()=>{}
 
-    return <UserContext.Provider>
+    return (
+    <UserContext.Provider>
         {children}
-    </UserContext>
+    </UserContext.Provider>
+    )
 }
